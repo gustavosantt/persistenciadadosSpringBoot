@@ -46,7 +46,7 @@ Antes de rodar o projeto, é necessário que você tenha as seguintes ferramenta
 3. configurar o a porta para 3307 ou alterar em meu codigo o caminho src/main/resources/application.properties, altere o nome do root e senha, caso o seu banco não tenha senha tire a senha, deixe da seguinte forma.
 
 "spring.application.name=persistenciadadosav1
-spring.datasource.url=jdbc:mariadb://localhost:3307/taskmanager - alterar a porta para 3307
+spring.datasource.url=jdbc:mariadb://localhost:3307/taskmanager - alterar a porta para 3306, normalmente a padrão para uso do mariaDb
 spring.datasource.username=root
 spring.datasource.password= **deixe com sua senha ou se não tiver, vazio.
 spring.datasource.driver-class-name=org.mariadb.jdbc.Driver
